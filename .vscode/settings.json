@@ -1,0 +1,5 @@
+{
+    "json.format.enable": false,
+    "workbench.settings.useSplitJSON": true,
+    "typescript.preferences.includePackageJsonAutoImports": "off"
+}

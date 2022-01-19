@@ -1,4 +1,4 @@
-class Funny {
+class Hero {
 	constructor(){
 
 	};
