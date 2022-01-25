@@ -1,13 +1,13 @@
 class Hero {
-	constructor(){
-
+	constructor(game){
+		this.game = game;
+	this.animator = new Animator(ASSET_MANAGER.getAsset("./hero.png"), 4, 0, 52, 108, 7, 0.5 );
 	};
 	update(){
 
 	};
 
 	draw(ctx){
-		ctx.drawImage(ASSET_MANAGER.getAsset("./funny.png"),0,0)
-
+this.animator.drawFrame(this.game.clockTick, ctx, 25, 25)
 	};
-}
+};
